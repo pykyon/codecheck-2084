@@ -8,6 +8,9 @@ class Program:
     # デッキを構築する関数
     # 引数 filename はカードのデータファイル
     # 返り値は文字列
+    file = open(filename);
+    print file.read()
+    print file.read()
     return "00000 00001 ..."
 
   def gacha(self, user_id):
